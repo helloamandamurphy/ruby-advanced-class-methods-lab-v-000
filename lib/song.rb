@@ -1,7 +1,5 @@
-require 'pry'
 class Song
   attr_accessor :name, :artist_name
-  #attr_accessor give me two methods i can call on a song :  song.artist_name  and song.artist_name =
   @@all = []
   
   def self.all
