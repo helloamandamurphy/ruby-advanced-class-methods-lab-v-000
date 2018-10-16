@@ -61,7 +61,7 @@ class Song
     artist = song_data[0]
     song_name = song_data[1].gsub(".mp3", "")
     song = self.create_by_name(song_name)
-    
+    song.artist_name = artist
     #song.name = song_name
     #song.artist_name = artist
     #song.save
